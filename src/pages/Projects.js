@@ -46,6 +46,7 @@ export default function Projects() {
               <img
                   src={project.image}
                   alt=""
+                  className="projectimg"
                 />
                 <div className="project-content">
                   <h3>{project.title}</h3>

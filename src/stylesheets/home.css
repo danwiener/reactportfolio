@@ -93,6 +93,10 @@
         margin-left: 5px;
     }
     
+
+    .textinblob{
+        transform: scale(0.38);
+    }
 }
 
 .introduction div h1 {
@@ -268,20 +272,24 @@ pre{
 }
 
 
-
-.aboutmetext{
-    font-size: 18px;
-    text-align: left;
+.aboutmeimg{
+    height: 420px;
+}
+.ok{
     text-align: center;
 }
 
-.aboutme-content{
+.buttons{
+    text-align: center;
+}
+
+.resume-content{
     position: absolute;
     top: 0;
     left: 0;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     padding: 20px;
     border: 1px solid rgba(0, 0, 0, 0.467);
@@ -295,22 +303,10 @@ pre{
 }
 
 
-.aboutmebox:hover > .aboutme-content{
-    margin-top: 15%;
-    opacity: 1;
-    transition: all 0.5s;
-    transform: scale(1.05);
-    border: 1px solid rgba(0, 0, 0, 0.467);
-    cursor: pointer;
-
-}
-
-.aboutmebox{
-    transition: all 0.5s;
-}
 
 
-.mephoto{
-    margin-left: -15%;
-    margin-top: 10%;
-}
+
+
+
+
+

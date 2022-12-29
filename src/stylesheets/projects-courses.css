@@ -26,10 +26,11 @@
     animation: project-animation 10s linear infinite;
 }
 
-.project img{
+.projectimg{
     height: 220px;
     width: 100%;
 }
+
 
 .project:hover > .project-content{
     opacity: 1;

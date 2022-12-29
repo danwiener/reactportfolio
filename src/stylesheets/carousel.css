@@ -86,7 +86,7 @@
         left: 0;
         transform-style: preserve-3d;
         transform-origin: center;
-        transform: rotateY(calc(var(--i) * 30deg)) translatez(150px);
+        transform: rotateY(calc(var(--i) * 30deg)) translatez(165px);
     }
 
     .gallery{

@@ -119,7 +119,7 @@ export default function Home() {
         <br/>
         <h3 id='whodan' className="font-bold text-center">Who is dan</h3>
       <div className="who-is-dan flex-with-center" style={{ backgroundImage: `url(./blob.svg)`}}>
-        <div>
+        <div className="textinblob">
           <h3>Hi, Hello, Namaste</h3>
           <hr/>
           <p><pre>{JSON.stringify({
