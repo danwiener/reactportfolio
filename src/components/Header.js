@@ -1,4 +1,4 @@
-import React, { useState, myRef, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import {RiMenu5Fill} from 'react-icons/ri'
 import {IoCloseCircleOutline} from 'react-icons/io5'
 import { Link } from 'react-router-dom'

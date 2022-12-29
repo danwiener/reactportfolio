@@ -56,6 +56,7 @@
         background-size: 180% 100%;
         color: white;
         background-position: center;
+        overflow: hidden;
     }
     pre{
         font-size: 16px;
