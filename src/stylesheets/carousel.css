@@ -1,12 +1,14 @@
 .carousel-parent{
-    height: 100vh;
-    background-position: 100% 50%;
+    height: 120vh;
+    background-position: top;
     background-size: cover;
-    color: white;
+    color: black;
     display: flex;
     align-items: center;
+    font-family: 'Sarala', sans-serif;
     justify-content: center;
 }
+
 
 .gallery{
     height: 200px;
@@ -53,6 +55,7 @@
     opacity: 1;
 }
 
+
 @keyframes gallery{
     0%{
         transform: perspective(1000px) rotateY(0deg);
@@ -60,4 +63,16 @@
     100%{
         transform: perspective(1000px) rotateY(360deg);
     }
+}
+
+#carouselid{
+    font-family: 'Sarala', sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.line-under-tech{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }

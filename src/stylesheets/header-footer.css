@@ -6,6 +6,16 @@
     cursor: pointer;
 }
 
+#headerbg{
+    background-position: 100% 100%;
+    background-size: cover;
+    color: black;
+    display: flex;
+    align-items: center;
+    font-family: 'Sarala', sans-serif;
+    justify-content: center;
+}
+
 .show-header{
     color: white;
     text-decoration: none;

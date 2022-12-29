@@ -5,52 +5,194 @@
     background-size: cover;
 }
 
-.introduction p{
-    color: white;
+.aboutme{
+    height: 100vh;
+    width: 100%;
+    background-position: 100% 40%;
+    background-size: cover;
 }
 
-@media (max-width:750px){
+.bgtechstack{
+    background-repeat: no-repeat;
+}
+
+
+.parent-container{
+    background-color: #e6e6e6;
+}
+
+.introduction p{
+    color: black;
+}
+
+#pushdown{
+    margin-top: 450px;
+}
+
+
+
+@media(max-width:750px){
     .introduction div h1 {
         font-weight: bold;
         color: rgba(255, 255, 255, 0.344);
         font-size: 75px;
     }
 
+
     .primary-button {
-        background-color:#323E4D;
+        background-color:#e6e6e6;
         height: 45px;
-        color: white;
-        border: none;
-        border-radius: 25px;
+        color: black;
+        border-radius: 0px;
         width: auto;
         padding: 5px 15px;
+        border: 2px solid #ffffff;
+        filter: drop-shadow(3px 5px 2px rgba(0, 0, 0, 0.451));
+    }
+
+    
+    .who-is-dan{
+        height: 100vh;
+        background-size: 180% 100%;
+        color: white;
+        background-position: center;
+    }
+    pre{
+        font-size: 16px;
+        font-family: 'Sarala', sans-serif !important;
+        overflow: hidden;
+    }
+    .photograss{
+        opacity: 0;
+    }
+
+    .primary-button3 {
+        background-color:#c76a28;
+        height: 45px;
+        color: #ffffff;
+        border-radius: 0px;
+        width: 25%;
+        font-size: 12px;
+        padding: 5px 15px;
+        border-radius: 25px;
+        border: none;
+        margin-right: 5px;
+    }
+    
+    .primary-button4 {
+        background-color:#c76a28;
+        height: 45px;
+        color: #ffffff;
+        border-radius: 0px;
+        width: 25%;
+        font-size: 12px;
+        padding: 5px 15px;
+        border-radius: 25px;
+        border: none;
+        margin-left: 5px;
     }
 }
 
 .introduction div h1 {
-    font-weight: bold;
-    color: rgba(255, 255, 255, 0.344);
+    
+    color: rgba(0, 0, 0, 0.398);
     font-size: 100px;
     transition: all 2s;
 }
 
+#dotnetbot{
+    border-radius: 50px;
+    background: #e6e6e6;
+    box-shadow: inset 8px 8px 10px #9a9a9a,
+                inset -8px -8px 10px #ffffff;
+}
+
 .introduction div h1:hover{
-    color: white;
+    color: black;
     cursor: default;
-    text-shadow: 0px 0px 10px white;
+    text-shadow: 0px 0px 10px black;
     transition: all 0.3s;
 }
 
 
 
 .primary-button {
-    background-color:#323E4D;
+    background-color:#e6e6e6;
     height: 45px;
-    color: white;
-    border: none;
-    border-radius: 25px;
+    color: black;
     width: 50%;
+    border: 2px solid #ffffff;
+    filter: drop-shadow(3px 5px 2px rgba(0, 0, 0, 0.451));
 }
+
+.primary-button2 {
+    background-color:#2885C7;
+    height: 45px;
+    color: #ffffff;
+    width: 50%;
+    border-radius: 25px;
+    border: none;
+}
+
+.primary-button3 {
+    background-color:#c76a28;
+    height: 45px;
+    color: #ffffff;
+    border-radius: 0px;
+    width: 40%;
+    padding: 5px 15px;
+    border-radius: 25px;
+    border: none;
+    margin-right: 5px;
+}
+
+.primary-button4 {
+    background-color:#c76a28;
+    height: 45px;
+    color: #ffffff;
+    border-radius: 0px;
+    width: 40%;
+    padding: 5px 15px;
+    border-radius: 25px;
+    border: none;
+    margin-left: 5px;
+}
+
+
+.devstack{
+    color: black;
+    transition: all 0.5s;
+    padding: 10px;
+}
+
+.devstack:hover{
+    color: white;
+    background-color: #191919;
+    transform: scale(1.05);
+    transition: all 0.5s;
+    box-shadow: none;
+}
+
+#whodan{
+    margin-bottom: -15px;
+}
+
+.who-is-dan{
+    height: 70vh;
+    background-size: 100% 100%;
+    color: white;
+    transition: all 0.5s;
+    overflow-y: hidden;
+}
+
+pre{
+    font-size: 18px;
+    font-family: 'Sarala', sans-serif !important;
+    overflow: hidden;
+}
+
+
+
 
 #intro-p {
     white-space: nowrap;
@@ -71,6 +213,8 @@
     color: #fffff734;
     height: 100px;
     margin-left: 10px;
+    z-index: 3;
+    transition: all 2s;
 }
 
 .introduction div h1:hover ~ .fa-lightbulb{
@@ -78,8 +222,48 @@
     color: #FACA08;
     height: 100px;
     margin-left: 10px;
+    z-index: 3;
     filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4))
-    drop-shadow(0px 0px 5px #FACA08)
+    drop-shadow(10px -70px 55px #FACA08);
+    transition: all 0.3s;
+}
+
+.finalimage{
+    height: 70vh;
+    background-size: 100% 100%;
+    background-position: bottom;
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: -200px;
+}
+
+.resumepage{
+    font-family: 'Sarala', sans-serif;
+    background-color: #e6e6e6;
+    width: 100%;
+    background-size: auto;
+    height: 100vh;
+    display: flex;
 }
 
 
+.resume{
+    justify-content: right;
+    align-items: flex-end;
+    text-align: center;
+}
+
+.blob{
+    margin-left: -230px;
+}
+
+.aboutmebox{
+    width: 75vh;
+}
+
+.aboutmetext{
+    font-size: 18px;
+    text-align: left;
+}
