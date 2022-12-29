@@ -68,7 +68,7 @@
     }
 
     .primary-button3 {
-        background-color:#c76a28;
+        background-color:#B49BB6;
         height: 45px;
         color: #ffffff;
         border-radius: 0px;
@@ -81,7 +81,7 @@
     }
     
     .primary-button4 {
-        background-color:#c76a28;
+        background-color:#B49BB6;
         height: 45px;
         color: #ffffff;
         border-radius: 0px;
@@ -92,6 +92,7 @@
         border: none;
         margin-left: 5px;
     }
+    
 }
 
 .introduction div h1 {
@@ -136,7 +137,7 @@
 }
 
 .primary-button3 {
-    background-color:#c76a28;
+    background-color:#B49BB6;
     height: 45px;
     color: #ffffff;
     border-radius: 0px;
@@ -148,7 +149,7 @@
 }
 
 .primary-button4 {
-    background-color:#c76a28;
+    background-color:#B49BB6;
     height: 45px;
     color: #ffffff;
     border-radius: 0px;
@@ -245,9 +246,18 @@ pre{
     font-family: 'Sarala', sans-serif;
     background-color: #e6e6e6;
     width: 100%;
-    background-size: auto;
-    height: 100vh;
+    background-size: cover;
+    height: 110vh;
     display: flex;
+    position: relative;
+    overflow-wrap: normal;
+}
+
+.resume-intro{
+    height: 100vh;
+    width: 100%;
+    background-position: 100% 100%;
+    background-size: cover;
 }
 
 
@@ -257,15 +267,50 @@ pre{
     text-align: center;
 }
 
-.blob{
-    margin-left: -230px;
-}
 
-.aboutmebox{
-    width: 75vh;
-}
 
 .aboutmetext{
     font-size: 18px;
     text-align: left;
+    text-align: center;
+}
+
+.aboutme-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.467);
+    border-radius: 10px;
+    background-color: rgba(25, 25, 25, 0.8);
+    color: white;
+    font-weight: 500%;
+    border-radius: 10px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+
+.aboutmebox:hover > .aboutme-content{
+    margin-top: 15%;
+    opacity: 1;
+    transition: all 0.5s;
+    transform: scale(1.05);
+    border: 1px solid rgba(0, 0, 0, 0.467);
+    cursor: pointer;
+
+}
+
+.aboutmebox{
+    transition: all 0.5s;
+}
+
+
+.mephoto{
+    margin-left: -15%;
+    margin-top: 10%;
 }
