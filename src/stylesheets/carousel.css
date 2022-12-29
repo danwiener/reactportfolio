@@ -76,3 +76,35 @@
     align-items: center;
     text-align: center;
 }
+
+@media(max-width:750px){
+    .gallery span{
+        height: 100%;
+        width: 60px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform-style: preserve-3d;
+        transform-origin: center;
+        transform: rotateY(calc(var(--i) * 30deg)) translatez(150px);
+    }
+
+    .gallery{
+        height: 200px;
+        width: 60px;
+        position: relative;
+        transform-style: preserve-3d;
+        animation: gallery 20s linear infinite;
+    }
+
+    .gallery span svg{
+        height: 100%;
+        width: 60px;
+        transition: all 1s;
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.218));
+    }
+}
