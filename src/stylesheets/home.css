@@ -275,11 +275,7 @@ pre{
 .aboutmeimg{
     height: 420px;
 }
-.ok{
-    text-align: center;
-}
-
-.buttons{
+.meimg{
     text-align: center;
 }
 
@@ -304,9 +300,39 @@ pre{
 
 
 
+#resumepdf{
+    height: 100vh;
+    width: 100%;
+    background-position: 100% 100%;
+    background-size: cover;
+}
 
+.buttons{
+    transition: all 0.5s;
+    text-align: left;
+}
 
+.buttons:hover ~ .resume-content{
+    opacity: 1;
+    transition: all 0.5s;
+    transform: scale(1.05);
+    border: 1px solid rgba(0, 0, 0, 0.467);
+    cursor: pointer;
+    z-index: 5;
+    text-align: center;
+    justify-content: center;
+    left: 50%;
+    width: 80%;
+}
 
-
-
-
+.resume-content:hover{
+    opacity: 1;
+    transition: all 0.5s;
+    transform: scale(1.05);
+    border: 1px solid rgba(0, 0, 0, 0.467);
+    cursor: pointer;
+    z-index: 5;
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+}

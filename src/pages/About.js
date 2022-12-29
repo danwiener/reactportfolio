@@ -4,7 +4,9 @@ import { RiFileListLine } from "react-icons/ri";
 import aboutmedata from "./aboutmedata";
 
 
-export default function Resume() {
+
+
+export default function About() {
   return (
     <div className="projectsback">
       <Header />
@@ -31,11 +33,10 @@ export default function Resume() {
                 contact me through the contact page!
               </p>
               <div className="buttons">
-              <button className="primary-button3">View Resume</button>
-              <button className="primary-button4">Download Resume</button>
-              <div className="resume-content">
-                
+              <button className="primary-button3">View/Download Resume</button>
               </div>
+              <div className="resume-content">
+                <iframe id='resumepdf'  src="./Resume.pdf#zoom=100"></iframe>
               </div>
             </div>
           </div>
@@ -52,7 +53,7 @@ export default function Resume() {
           {aboutmedata.map(aboutme=>{
             return <div className="col-md-4">
               <div className="position-relative project">
-                <div className="ok">
+                <div className="meimg">
               <img
                   src={aboutme.image}
                   alt=""

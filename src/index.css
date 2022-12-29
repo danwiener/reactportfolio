@@ -36,9 +36,9 @@ code {
 }
 
 .n-box1{
-background: linear-gradient(145deg, #408ce8, #3676c3);
-box-shadow:  17px 17px 35px #2b5e9c,
-             -17px -17px 35px #4da8ff;
+background: linear-gradient(145deg, #e6e6e6, #ffffff);
+box-shadow:  17px 17px 35px #1919198e,
+             -17px -17px 35px #19191981;
 }
 
 .n-box2{
