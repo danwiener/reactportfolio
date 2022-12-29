@@ -184,6 +184,7 @@
     color: white;
     transition: all 0.5s;
     overflow-y: hidden;
+    overflow: hidden;
 }
 
 pre{
