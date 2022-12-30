@@ -114,7 +114,7 @@ ul a{
 }
 
 input, textarea{
-    margin-top: 25px;
+    margin-top: 25px !important;
     border: none !important;
     background-color: #f2f2f2 !important;
     background: #e6e6e6;

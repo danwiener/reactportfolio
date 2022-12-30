@@ -24,6 +24,9 @@ export default function Contact() {
     if (response.status === 200) {
       setStatus("SUCCESS, SEND AGAIN")
     }
+    else {
+      setStatus("TRY AGAIN")
+    }
     let result = await response.json();
     alert(result.status);
   };
