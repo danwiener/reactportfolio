@@ -135,7 +135,6 @@ export default function Home() {
         </div>
       </div>
       </div>
-      <div className="finalimage" style={{ backgroundImage: `url(./bottomwave.svg)`}}></div>
       </div>
     </div>
   );
