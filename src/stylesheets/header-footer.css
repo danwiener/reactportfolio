@@ -106,11 +106,12 @@ ul a{
 
 
 .contactclass{
-    height: 100vh;
+    height: 110vh;
     width: 100%;
     background-position: 100% 100%;
     background-size: cover;
     background-color: #e6e6e6;
+    overflow: hidden;
 }
 
 input, textarea{
