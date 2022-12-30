@@ -131,6 +131,12 @@ input, textarea{
                 inset -8px -8px 10px #ffffff;
 }
 
+.footer-parent{
+    background-color: #e6e6e6;
+    padding-top: 1%;
+}
+
+
 @media(max-width:750px) {
     .show-header{
         color: white;

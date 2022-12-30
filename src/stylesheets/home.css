@@ -228,12 +228,28 @@ pre{
 }
 
 .fa-square-github,
-.fa-linkedin{
+.fa-linkedin, .danwienerlogoimg{
   background-color:transparent;
   color: #a6a6a6;
   height: 100px;
   margin-left: 10px;
-  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+
+}
+#linkedinlogo{
+    filter: drop-shadow(3px 5px 20px #0A66C2);
+}
+#githublogo{
+    filter: drop-shadow(3px 5px 20px #24292F);
+}
+
+#danwienerlogoimgid{
+    max-height: 88px;
+    border-radius: 10px;
+    max-width: 100%;
+    display: flex;
+    vertical-align: middle;
+    filter: drop-shadow(3px 5px 20px #191919);
+    margin-top: -4px;
 }
 
 .fa-lightbulb{
@@ -374,3 +390,4 @@ pre{
     height: 100vh;
     transition: all 0.5s;
 }
+

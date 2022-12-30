@@ -27,7 +27,7 @@ const projectsdata = [
     title: "REACT.JS PORTFOLIO WEBSITE (THIS WEBSITE)",
 	image: "./resume.svg",
 	description:
-		"React.js/CSS/Bootstrap/HTML5 portfolio website built to demonstrate my projects , passions , and skills , utilizing React Components , React Routing , React States , Neumorphic Designs , React-Icons , extensive CSS/Bootstrap conditional styling and animations , and my body of work",
+		"React.js/CSS/Bootstrap/HTML5 portfolio website built to demonstrate my projects , passions , and skills , utilizing React Components , React Routing , React States , Neumorphic Designs , Adobe Suite , React-Icons , extensive CSS/Bootstrap conditional styling and animations , and my body of work",
 	link: "https://www.henrikwiener-portfolio.com/",
     futurechanges: "Future features: enhance accessbility for hearing/visually impaired , improve UI responsiveness to mobile device viewing advanced animations and extensive Three.js/Web GL graphics throughout for a fully immersive , interactive user-experience",
 	},

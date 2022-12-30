@@ -47,7 +47,7 @@ export default function About() {
       <div className="container projects-list">
         <h3 className="font-bold">More about us</h3>
         <hr/>
-        <div className="row">
+        <div className="row projectsall">
 
           {aboutmedata.map(aboutme=>{
             return <div className="col-md-4">

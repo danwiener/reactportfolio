@@ -144,13 +144,3 @@ export default function Home() {
   /* <i className="fa-solid fa-lightbulb"></i> */
 }
 
-{
-  /* <div className="colz-icon flex-with-center">
-<a href="https://github.com/danwiener">
-  <i className="fa-brands fa-square-github"></i>
-</a>
-<a href="https://www.linkedin.com/in/henrikwiener/">
-<i className="fa-brands fa-linkedin"></i>
-</a>
-</div> */
-}
