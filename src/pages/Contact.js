@@ -24,6 +24,7 @@ export default function Contact() {
     setStatus("SUBMIT");
     let result = await response.json();
     alert(result.status);
+    setStatus("SEND ANOTHER");
   };
 
   return (
