@@ -50,6 +50,17 @@
         filter: drop-shadow(3px 5px 2px rgba(0, 0, 0, 0.451));
     }
 
+    .primary-button5 {
+        background-color:#e6e6e6;
+        height: 45px;
+        color: black;
+        border-radius: 0px;
+        width: auto;
+        padding: 5px 15px;
+        border: 2px solid #ffffff;
+        filter: drop-shadow(3px 5px 2px rgba(0, 0, 0, 0.451));
+    }
+
     
     .who-is-dan{
         height: 100vh;
@@ -131,6 +142,15 @@
     filter: drop-shadow(3px 5px 2px rgba(0, 0, 0, 0.451));
 }
 
+.primary-button5 {
+    background-color:#e6e6e6;
+    height: 45px;
+    color: black;
+    width: 100%;
+    border: 2px solid #ffffff;
+    filter: drop-shadow(3px 5px 2px rgba(0, 0, 0, 0.451));
+}
+
 .primary-button2 {
     background-color:#2885C7;
     height: 45px;
@@ -192,9 +212,6 @@
     overflow: hidden;
 }
 
-.textinblob{
-    font-size: 16px;
-}
 
 pre{
     font-size: 18px;

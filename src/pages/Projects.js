@@ -60,7 +60,7 @@ export default function Projects() {
                   <hr/>
                   <p>{project.description}</p>
                   <a href={project.link} target="_blank" rel="noreferrer">
-                  <button className="primary-button">VIEW/DOWNLOAD</button>
+                  <button className="primary-button5">VIEW/DOWNLOAD</button>
                   </a>
                   <hr/>
                   <p>{project.futurechanges}</p>
