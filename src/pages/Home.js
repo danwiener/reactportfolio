@@ -87,7 +87,7 @@ export default function Home() {
               <div className="font-bold">
                 <h3 className="font-bold">Front End</h3>
                 <hr/>
-                <p>ASP.NET CORE/C#</p>
+                <p>.NET/C#</p>
                 <p>Java</p>
                 <p>HTML/CSS</p>
                 <p>JavaScript</p>
