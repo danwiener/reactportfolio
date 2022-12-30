@@ -4,6 +4,12 @@ import Header from ".././components/Header";
 import Carousel from "../components/Carousel";
 
 export default function Home() {
+  const handleClickScroll = () => {
+    const element = document.getElementById('carouselscroll');
+    if (element) {
+      element.scrollIntoView({behavior: 'smooth'});
+    }
+  };
   return (
     <div className="parent-container">
       <Header />
@@ -19,13 +25,14 @@ export default function Home() {
             <p id="intro-p">
               .NET Stack <br /> Dedicated , Software Engineer
             </p>
-            <button className="primary-button font-bold">GET STARTED</button>
+            <button className="primary-button font-bold" onClick={handleClickScroll}>GET STARTED</button>
           </div>
         </div>
       </div>
 
+    <div id='carouselscroll'>
       <Carousel />
-
+</div>
       <div
         className="bgtechstack"
         id="techstackpage justify-content-start"

@@ -30,7 +30,7 @@ export default function About() {
               <h1 className="font-bold">Hi! I'm Dan.</h1>
               <p className="font-bold">
               I am open to work. Please view or download my resume below, or
-                contact me through the contact page!
+                contact me through my contact page!
               </p>
               <div className="buttons">
               <button className="primary-button3">View/Download Resume</button>

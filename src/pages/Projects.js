@@ -5,6 +5,13 @@ import projectsdata from "./projectsdata";
 
 
 export default function Projects() {
+  const handleClickScroll = () => {
+    const element = document.getElementById('projectsid');
+    if (element) {
+      element.scrollIntoView({behavior: 'smooth'});
+    }
+  };
+
   return (
     <div className="projectsback">
       <Header />
@@ -18,7 +25,7 @@ export default function Projects() {
                 willingness to learn, and surrendering to the process of
                 continual improvement.
               </p>
-              <button className="primary-button2">Get Started</button>
+              <button className="primary-button2" onClick={handleClickScroll}>Get Started</button>
             </div>
           </div>
 
@@ -38,7 +45,7 @@ export default function Projects() {
         <h3 className="font-bold">Take a look at our projects</h3>
         <hr/>
 
-        <div className="row">
+        <div className="row" id='projectsid'>
 
           {projectsdata.map(project=>{
             return <div className="col-md-4">
@@ -52,7 +59,9 @@ export default function Projects() {
                   <h3>{project.title}</h3>
                   <hr/>
                   <p>{project.description}</p>
+                  <a href={project.link} target="_blank" rel="noreferrer">
                   <button className="primary-button">VIEW/DOWNLOAD</button>
+                  </a>
                   <hr/>
                   <p>{project.futurechanges}</p>
                 </div>

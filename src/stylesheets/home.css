@@ -126,7 +126,7 @@
     background-color:#e6e6e6;
     height: 45px;
     color: black;
-    width: 50%;
+    width: 100%;
     border: 2px solid #ffffff;
     filter: drop-shadow(3px 5px 2px rgba(0, 0, 0, 0.451));
 }
