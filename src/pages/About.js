@@ -47,7 +47,6 @@ export default function About() {
       <div className="container projects-list">
         <h3 className="font-bold">More about me</h3>
         <hr/>
-
         <div className="row">
 
           {aboutmedata.map(aboutme=>{
