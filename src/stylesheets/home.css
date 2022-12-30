@@ -165,7 +165,7 @@
     height: 45px;
     color: #ffffff;
     border-radius: 0px;
-    width: 50%;
+    width: 100%;
     padding: 5px 15px;
     border-radius: 25px;
     border: none;
@@ -302,8 +302,6 @@ pre{
 
 .resume-content{
     position: absolute;
-    top: 0;
-    left: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -317,6 +315,12 @@ pre{
     border-radius: 10px;
     opacity: 0;
     transition: all 0.5s;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left:0;
+    height: 0%;
+    width: 0;
 }
 
 
@@ -331,6 +335,9 @@ pre{
 .buttons{
     transition: all 0.5s;
     text-align: left;
+    width: 50%;
+    position: relative;
+    transition: all 0.5s;
 }
 
 .buttons:hover ~ .resume-content{
@@ -344,16 +351,26 @@ pre{
     justify-content: center;
     left: 50%;
     width: 80%;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    
 }
 
 .resume-content:hover{
     opacity: 1;
-    transition: all 0.5s;
     transform: scale(1.05);
     border: 1px solid rgba(0, 0, 0, 0.467);
     cursor: pointer;
     z-index: 5;
     text-align: center;
     justify-content: center;
+    display: flex;
+    flex-direction: column;
+    left: 50%;
     width: 80%;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    transition: all 0.5s;
 }
