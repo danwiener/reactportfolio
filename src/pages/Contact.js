@@ -16,7 +16,8 @@ export default function Contact() {
     let response = await fetch("https://buttonhookfantasyfootballapi.azurewebsites.net/api/sendresumeemail", {
       method: "POST",
       headers: {
-
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
       },
       body: JSON.stringify(details),
     });
