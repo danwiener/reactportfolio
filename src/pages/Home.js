@@ -88,7 +88,7 @@ export default function Home() {
                 <p>Java</p>
                 <p>HTML/CSS</p>
                 <p>JavaScript</p>
-                <p>React</p>
+                <p>React.js</p>
                 <p>Python</p>
               </div>
             </div>
