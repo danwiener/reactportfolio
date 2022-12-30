@@ -29,7 +29,7 @@ export default function About() {
             <div className="proj">
               <h1 className="font-bold">Hi! I'm Dan.</h1>
               <p className="font-bold">
-              I am open to work. Please view or download my resume below, or
+              I am open to work for an inclusive and innovative company where I can help enrich others' lives. Please view or download my resume below, or
                 contact me through my contact page!
               </p>
               <div className="buttons">
@@ -45,7 +45,7 @@ export default function About() {
       </div>
 
       <div className="container projects-list">
-        <h3 className="font-bold">More about me</h3>
+        <h3 className="font-bold">More about us</h3>
         <hr/>
         <div className="row">
 
@@ -62,7 +62,7 @@ export default function About() {
                 <div className="project-content">
                   <h3>ABOUT ME</h3>
                   <hr/>
-                  <p>I am a Marine Corps veteran and software engineer with a
+                  <p>I am a Marine Corps veteran and full stack software engineer with a
                 background in 3D printing/3D engineering, though I have been
                 around software engineering my whole life.
                 <br />

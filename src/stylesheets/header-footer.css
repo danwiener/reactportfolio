@@ -95,7 +95,7 @@ ul a{
 }
 
 .form-control:focus{
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 .form-control{

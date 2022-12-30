@@ -66,10 +66,7 @@ export default function Home() {
             <div className="col-md-4">
               <div className="n-box2 p-5 font-bold">
                 <p>
-                  C# is one of the highest-ranked programming langauges because
-                  of its speed, ease of use, multi-purpose versatility, and
-                  seamless integration among the powerful .NET framework. Main
-                  Use Cases: Any Kind of Software Engineering.
+                  I absolutely love C#; C# is one of the most powerful languages in the world because of its speed and multi-purpose versatility. I love how everything in the .NET framework packages together and integrates seamlessly into Visual Studio and my goal is to make software with it that contributes to people's lives or to something meaningful.
                 </p>
               </div>
             </div>
