@@ -21,10 +21,11 @@ export default function Contact() {
       },
       body: JSON.stringify(details),
     });
-    setStatus("SUBMIT");
+    if (response.status === 200) {
+      setStatus("SUCCESS, SEND AGAIN")
+    }
     let result = await response.json();
     alert(result.status);
-    setStatus("SEND ANOTHER");
   };
 
   return (
