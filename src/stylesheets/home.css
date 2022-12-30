@@ -193,7 +193,7 @@
 }
 
 .textinblob{
-    transform: scale(0.99);
+    overflow-y: hidden;
 }
 
 pre{
