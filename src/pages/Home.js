@@ -128,7 +128,6 @@ export default function Home() {
             from: "Colorado Springs, CO",
             age: null,
             gender:"Male",
-            projects: "Click the three-lines icon at the top right to continue onto my projects, resume, and contact me"
           }, null, 2)}</pre></p>
         </div>
       </div>
