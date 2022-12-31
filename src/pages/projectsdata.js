@@ -3,7 +3,7 @@ const projectsdata = [
 	title: "BUTTON HOOK FANTASY FOOTBALL",
 	image: "./football.svg",
 	description:
-        ".NET MAUI fantasy football application , backend built using custom .NET web API authentication and controller w/SQL DB hosted using Microsoft Azure , frontend downloadable from anywhere in the world from this website (click \"VIEW/DOWNLOAD\" below :)) , password reset , password generator",
+        ".NET MAUI fantasy football application , ~8,400 lines of code , SUBMITTED to Microsoft App Store , backend built using custom .NET web API authentication and controller w/SQL DB hosted using Microsoft Azure , frontend downloadable from anywhere in the world from this website (click \"VIEW/DOWNLOAD\" below :)) , password reset , password generator",
     futurechanges: "Future features: weather forecast search page , search for players/teams w/ predictive typing , facilitate trades between teams , commissioner rights to add/drop players from non-commissioner owned teams , customizable light/dark theme , additional layers of security to the custom authentication protocol , optimized w/bulletproof asynchronous API/HTTP calls",
     link: "https://buttonhookfantasyfootballdownload.b-cdn.net/Button%20Hook%20Fantasy%20Football.exe",
 	},
@@ -29,7 +29,7 @@ const projectsdata = [
 	description:
 		"React.js/CSS/Bootstrap/HTML5 portfolio website built to demonstrate my projects , passions , and skills , utilizing React Components , React Routing , React States , Neumorphic Designs , Adobe Suite , React-Icons , extensive CSS/Bootstrap conditional styling and animations , and my body of work",
 	link: "https://www.henrikwiener-portfolio.com/",
-    futurechanges: "Future features: enhance accessbility for hearing/visually impaired , improve UI responsiveness to mobile device viewing advanced animations and extensive Three.js/Web GL graphics throughout for a fully immersive , interactive user-experience",
+    futurechanges: "Future features: enhance accessbility for hearing/visually impaired , improve UI responsiveness to mobile device viewing , advanced animations and extensive Three.js/Web GL graphics throughout for a fully immersive , interactive user-experience",
 	},
     {
         title: "PYTHON INFECTIOUS DISEASE DATA",
