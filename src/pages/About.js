@@ -25,7 +25,7 @@ export default function About() {
             size='180'
             className="position-absolute top-50 start-50 translate-middle"/>
           </div>
-          <div className="col-md-6 n-box2 px-3 py-5">
+          <div className="col-md-6 n-box2 px-3 py-5 projpush">
             <div className="proj">
               <h1 className="font-bold">Hi! I'm Dan.</h1>
               <p className="font-bold">
@@ -45,7 +45,7 @@ export default function About() {
       </div>
 
       <div className="container projects-list">
-        <h3 className="font-bold">More About Me</h3>
+        <h3 className="font-bold mt-5">More About Me</h3>
         <hr/>
         <div className="row projectsall">
 

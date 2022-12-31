@@ -17,7 +17,7 @@ export default function Projects() {
       <Header />
       <div className="container projects-intro">
         <div className="row flex-with-center mt-5">
-          <div className="col-md-6 n-box2 px-3 py-5">
+          <div className="col-md-6 n-box2 px-3 py-5 projpush">
             <div className="proj">
               <h1 className="font-bold">Projects</h1>
               <p className="font-bold">
@@ -42,7 +42,7 @@ export default function Projects() {
       </div>
 
       <div className="container projects-list">
-        <h3 className="font-bold">Take a look at our projects</h3>
+        <h3 className="font-bold">Take a Look At My Projects</h3>
         <hr/>
 
         <div className="row" id='projectsid'>
