@@ -57,6 +57,13 @@ export default function HireMe() {
         </div>
       </div>
       </div>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
       <div className="row footercontact"><Footer/></div>
     </div>
   );
