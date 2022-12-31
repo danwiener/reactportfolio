@@ -127,7 +127,7 @@ ul a{
 
 
 .contactclass{
-
+    height: 100vh !important
     background: rgb(230,230,230);
     background: linear-gradient(57deg, rgba(230,230,230,1) 0%, rgba(40,133,199,1) 35%, rgba(25,25,25,1) 100%);
     z-index: 9;
