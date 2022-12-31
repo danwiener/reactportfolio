@@ -1,3 +1,13 @@
+@font-face {
+    font-family: titlefont;
+    src: url("../MyriadPro-SemiExt.otf") format("opentype");
+  }
+  
+  @font-face {
+    font-family: bodyfont;
+    src: url("../Pelita-SemiBold.otf") format("opentype");
+  }
+
 .menu-icon{
     color: #323E4D;
     font-size: 100px;
@@ -56,6 +66,7 @@ ul li{
     list-style: none;
     margin-top: 25px;
     font-size: 25px;
+    font-family: bodyfont;
 }
 
 ul a{
@@ -97,7 +108,7 @@ ul a{
 }
 
 .footer-content{
-    background-color: transparent;
+    background-color: #191919;
     text-align: center;
     color: black;
 }
@@ -141,6 +152,19 @@ input, textarea{
     background-color: #e6e6e6;
     padding-top: 1%;
 }
+
+
+.designed{
+    font-family: titlefont;
+    color: #CBD5E1;
+}
+
+#mynamefooter{
+    font-family: titlefont;
+    color: #f8ffeb;
+    text-shadow: 0px 0px 10px #f8ffeb;
+}
+
 
 
 @media(max-width:750px) {

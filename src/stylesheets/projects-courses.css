@@ -1,3 +1,13 @@
+@font-face {
+    font-family: titlefont;
+    src: url("../MyriadPro-SemiExt.otf") format("opentype");
+  }
+  
+  @font-face {
+    font-family: bodyfont;
+    src: url("../Pelita-SemiBold.otf") format("opentype");
+  }
+
 .projectsback{
     font-family: 'Sarala', sans-serif;
     background-color: #e6e6e6;

@@ -364,7 +364,7 @@ pre{
 .fa-square-github,
 .fa-linkedin{
   background-color:transparent;
-  color: #a6a6a6;
+  color: #CBD5E1;
   height: 100px;
   margin-left: 10px;
 
@@ -373,14 +373,14 @@ pre{
     filter: drop-shadow(3px 5px 20px #0A66C2);
 }
 #githublogo{
-    filter: drop-shadow(3px 5px 20px #24292F);
+    filter: drop-shadow(3px 5px 20px #6e5494);
 }
 
 #danwienerlogoimgid{
     max-height: 88px;
     border-radius: 10px;
     max-width: 100%;
-    filter: drop-shadow(3px 5px 20px #191919);
+    filter: drop-shadow(3px 5px 20px #CBD5E1);
     margin-right: 10px;
 }
 

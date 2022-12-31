@@ -9,7 +9,7 @@ function Footer() {
 
       <div className="row justify-content-center footer-content">
         <div className="col-md-6">
-          <div className="div">
+          <div className="div designed">
             <p>Designed and Developed By</p>
             <hr />
             <div className="d-flex justify-content-between">
@@ -29,7 +29,7 @@ function Footer() {
               </a>
             </div>
             <hr />
-            <p>Henrik Daniel Wiener</p>
+            <p id='mynamefooter'>Henrik Daniel Wiener</p>
           </div>
         </div>
       </div>
