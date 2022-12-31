@@ -161,7 +161,7 @@ background: linear-gradient(57deg, rgba(230,230,230,1) 0%, rgba(40,133,199,1) 35
     
 
     .textinblob{
-        transform: scale(0.4);
+        transform: scale(0.5);
     }
 }
 

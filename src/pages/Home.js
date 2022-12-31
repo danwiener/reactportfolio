@@ -127,7 +127,8 @@ export default function Home() {
             name:"Henrik D. Wiener",
             from: "Colorado Springs, CO",
             age: null,
-            gender:"Male"
+            gender:"Male",
+            projects: "Click the three-lines icon at the top right to continue onto my projects, resume, and contact me"
           }, null, 2)}</pre></p>
         </div>
       </div>
