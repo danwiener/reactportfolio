@@ -2,7 +2,7 @@ import React from "react";
 import Header from ".././components/Header";
 import { FaLaptopCode } from "react-icons/fa";
 import projectsdata from "./projectsdata";
-
+import Footer from ".././components/Footer";
 
 export default function Projects() {
   const handleClickScroll = () => {
@@ -69,16 +69,8 @@ export default function Projects() {
             </div>
           })}
         </div>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
       </div>
+      <Footer/>
     </div>
   );
 }

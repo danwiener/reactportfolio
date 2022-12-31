@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import { RiFileListLine } from "react-icons/ri";
 import aboutmedata from "./aboutmedata";
-
+import Footer from ".././components/Footer";
 
 
 
@@ -45,7 +45,7 @@ export default function About() {
       </div>
 
       <div className="container projects-list">
-        <h3 className="font-bold">More about us</h3>
+        <h3 className="font-bold">More About Me</h3>
         <hr/>
         <div className="row projectsall">
 
@@ -59,7 +59,7 @@ export default function About() {
                   className="aboutmeimg"
                 />
                 </div>
-                <div className="project-content">
+                <div className="project-content2" >
                   <h3>ABOUT ME</h3>
                   <hr/>
                   <p>I am a Marine Corps veteran and full stack software engineer with a
@@ -91,16 +91,8 @@ export default function About() {
             </div>
           })}
         </div>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
       </div>
+      <Footer/>
     </div>
   );
 }

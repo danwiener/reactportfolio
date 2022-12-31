@@ -531,3 +531,13 @@ pre{
 #dotnetbot {
     font-family: bodyfont;
 }
+
+.abovefooter{
+    margin-bottom: 100px;
+}
+
+.end{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}

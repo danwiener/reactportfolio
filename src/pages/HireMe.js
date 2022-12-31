@@ -1,6 +1,7 @@
 import React from "react";
 import Header from ".././components/Header";
 import { useState } from "react";
+import Footer from ".././components/Footer";
 
 export default function HireMe() {
   const [status, setStatus] = useState("Submit");
@@ -34,14 +35,15 @@ export default function HireMe() {
   return (
     <div className="contactclass">
       <Header/>
-      <div className="container contact mt-5">
+      <div className="projects-list">
+      <div className="container contact mt-5 abovefooter">
         <div className="row pt-5">
           <div className="col-md-6 p-5 contactimg">
             <img src="./contactme.jpg" alt="" />
           </div>
           <div className="col-md-6">
             <form onSubmit={handleSubmit}>
-            <div id='dotnetbot' className="contact-form m-2 p-5">
+            <div id='dotnetbot' className="contact-form m-2 p-5 nextbot">
               <h3>Hire Me</h3>
               <input type="text" id='name' className="form-control" placeholder="Name"/>
               <input type="text" id='email' className="form-control" placeholder="Email"/>
@@ -54,6 +56,8 @@ export default function HireMe() {
           </div>
         </div>
       </div>
+      </div>
+      <div className="footercontact"><Footer/></div>
     </div>
   );
 }

@@ -3,6 +3,7 @@ import { json } from "react-router-dom";
 import Header from ".././components/Header";
 import Carousel from "../components/Carousel";
 import Footer from ".././components/Footer";
+
 export default function Home() {
   const handleClickScroll = () => {
     const element = document.getElementById('carouselscroll');

@@ -14,7 +14,9 @@
     margin: 20px;
     z-index: 2;
     cursor: pointer;
+    z-index: 7;
 }
+
 
 #headerbg{
     background-position: 100% 100%;
@@ -36,12 +38,14 @@
     position: fixed;
     top:0;
     right:0;
-    background-color: rgba(0, 255, 255, 0.33);
+    background: rgb(230,230,230);
+    background: radial-gradient(circle, rgba(230,230,230,1) 0%, rgba(203,213,225,1) 35%, rgba(25,25,25,1) 100%);
     height: 65vh;
     width: 50%;
     border-bottom-left-radius: 50%;
     transition: all 0.5s;
     overflow: hidden;
+    z-index: 6;
 }
 
 .hide-header{
@@ -123,12 +127,10 @@ ul a{
 
 
 .contactclass{
-    height: 110vh;
-    width: 100%;
-    background-position: 100% 100%;
-    background-size: cover;
-    background-color: #e6e6e6;
-    overflow: hidden !important;
+
+    background: rgb(230,230,230);
+    background: linear-gradient(57deg, rgba(230,230,230,1) 0%, rgba(40,133,199,1) 35%, rgba(25,25,25,1) 100%);
+    z-index: 9;
 }
 
 input, textarea{
@@ -214,5 +216,9 @@ input, textarea{
     .contact-form{
         padding: 15px;
     }
+}
+
+.nextbot{
+    margin-bottom: 100px;
 }
 
