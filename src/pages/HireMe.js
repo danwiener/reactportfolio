@@ -2,7 +2,7 @@ import React from "react";
 import Header from ".././components/Header";
 import { useState } from "react";
 
-export default function Contact() {
+export default function HireMe() {
   const [status, setStatus] = useState("Submit");
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -42,7 +42,7 @@ export default function Contact() {
           <div className="col-md-6">
             <form onSubmit={handleSubmit}>
             <div id='dotnetbot' className="contact-form m-2 p-5">
-              <h3>Contact US</h3>
+              <h3>Hire Me</h3>
               <input type="text" id='name' className="form-control" placeholder="Name"/>
               <input type="text" id='email' className="form-control" placeholder="Email"/>
               <textarea className="form-control" id='message' rows={3} defaultValue={""}/>

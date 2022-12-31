@@ -96,6 +96,12 @@ ul a{
     font-weight: bold;
 }
 
+.footer-content{
+    background-color: transparent;
+    text-align: center;
+    color: black;
+}
+
 .form-control:focus{
     transform: scale(1.02);
 }

@@ -1,4 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+@font-face {
+  font-family: titlefont;
+  src: url("MyriadPro-SemiExt.otf") format("opentype");
+}
+
+@font-face {
+  font-family: bodyfont;
+  src: url("Pelita-SemiBold.otf") format("opentype");
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -7,13 +18,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Sarala', sans-serif;
+  
 }
 
 
 
 body, html {
   overflow-x: hidden;
-  background-color: #e6e6e6;
   height: 100vh;
 }
 
@@ -45,8 +56,10 @@ box-shadow:  17px 17px 35px #1919198e,
 
 .n-box2{
   border-radius: 50px;
-  background: #e6e6e6;
-  box-shadow:  5px 5px 0px #bfbfbf,
-               -5px -5px 0px #ffffff;
+  background: #204967;
+  box-shadow:  5px 5px 0px #19191976,
+               -5px -5px 0px #cbd5e165;
 }
+
+
 

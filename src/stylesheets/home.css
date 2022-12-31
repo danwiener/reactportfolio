@@ -1,8 +1,19 @@
+@font-face {
+    font-family: titlefont;
+    src: url("../MyriadPro-SemiExt.otf") format("opentype");
+  }
+  
+  @font-face {
+    font-family: bodyfont;
+    src: url("../Pelita-SemiBold.otf") format("opentype");
+  }
+
 .introduction {
     height: 100vh;
     width: 100%;
     background-position: 100% 100%;
     background-size: cover;
+    font-family: titlefont;
 }
 
 .aboutme{
@@ -18,36 +29,72 @@
 
 
 .parent-container{
-    background-color: #e6e6e6;
+    background: rgb(230,230,230);
+background: linear-gradient(57deg, rgba(230,230,230,1) 0%, rgba(40,133,199,1) 35%, rgba(25,25,25,1) 100%);
 }
 
 .introduction p{
-    color: black;
+    color: #f8ffebab;
+}
+
+#intro-p{
+    font-family: bodyfont;
+}
+
+#nexttitle{
+    color: #64748B;
+    font-family: bodyfont;
 }
 
 #pushdown{
     margin-top: 450px;
+    font-family: bodyfont;
 }
 
+#pushdown h1{
+    color: #CBD5E1;
+}
+
+#pushdown p{
+    color: #f8ffeb;
+}
+
+#pushdown2{
+    color: #f8ffeb;
+}
+
+.techstackitems{
+    color: #f8ffeb;
+    font-family: bodyfont;
+}
+
+.devstack .techstackitems #titles{
+    font-family: titlefont;
+}
+
+#titles{
+    color: #CBD5E1;
+}
 
 
 @media(max-width:750px){
     .introduction div h1 {
         font-weight: bold;
-        color: rgba(255, 255, 255, 0.344);
+        color: rgba(0, 0, 0, 0.367);
         font-size: 75px;
+        transition: all 2s;
     }
 
 
     .primary-button {
-        background-color:#e6e6e6;
+        background-color:#d77a38;
+        border-radius: 25px;
+        border: none;
         height: 45px;
-        color: black;
-        border-radius: 0px;
+        color: #CBD5E1;
         width: auto;
         padding: 5px 15px;
-        border: 2px solid #ffffff;
-        filter: drop-shadow(3px 5px 2px rgba(0, 0, 0, 0.451));
+        font-family: bodyfont;
     }
 
     .primary-button5 {
@@ -59,21 +106,27 @@
         padding: 5px 15px;
         border: 2px solid #ffffff;
         filter: drop-shadow(3px 5px 2px rgba(0, 0, 0, 0.451));
+        font-family: bodyfont;
     }
 
     
     .who-is-dan{
         height: 100vh;
         background-size: 180% 100%;
-        color: white;
+        overflow-y: hidden;
         background-position: center;
         overflow: hidden;
     }
+
     pre{
         font-size: 16px;
-        font-family: 'Sarala', sans-serif !important;
+        font-family: bodyfont !important;
+        color: #f8ffeb;
         overflow: hidden;
     }
+
+    
+
     .photograss{
         opacity: 0;
     }
@@ -89,6 +142,7 @@
         border-radius: 25px;
         border: none;
         margin-right: 5px;
+        font-family: bodyfont;
     }
     
     .primary-button4 {
@@ -102,6 +156,7 @@
         border-radius: 25px;
         border: none;
         margin-left: 5px;
+        font-family: bodyfont;
     }
     
 
@@ -110,10 +165,21 @@
     }
 }
 
+.transition{
+    opacity: 0.2;
+}
+
 .introduction div h1 {
-    
-    color: rgba(0, 0, 0, 0.398);
+    color: rgba(0, 0, 0, 0.367);
     font-size: 100px;
+    transition: all 2s;
+}
+
+.intro-content p #nexttitle span{
+    transition: all 2s;
+}
+
+.intro-content p span{
     transition: all 2s;
 }
 
@@ -124,22 +190,34 @@
                 inset -8px -8px 10px #ffffff;
 }
 
-.introduction div h1:hover{
-    color: black;
+.titlehover:hover{
+    color: #CBD5E1;
     cursor: default;
     text-shadow: 0px 0px 10px black;
     transition: all 0.3s;
 }
 
 
+.titlehover:hover ~ .intro-content p span{
+    color: #f8ffeb;
+    transition: all 0.3s;
+}
+
+.titlehover:hover ~ .intro-content p #nexttitle span{
+    color: #f8ffeb;
+    transition: all 0.3s;
+}
+
+
 
 .primary-button {
-    background-color:#e6e6e6;
+    background-color:#d77a38;
+    border-radius: 25px;
+    border: none;
     height: 45px;
-    color: black;
+    color: #CBD5E1;
     width: 50%;
-    border: 2px solid #ffffff;
-    filter: drop-shadow(3px 5px 2px rgba(0, 0, 0, 0.451));
+    font-family: bodyfont;
 }
 
 .primary-button5 {
@@ -149,6 +227,7 @@
     width: 100%;
     border: 2px solid #ffffff;
     filter: drop-shadow(3px 5px 2px rgba(0, 0, 0, 0.451));
+    font-family: bodyfont;
 }
 
 .primary-button2 {
@@ -158,6 +237,7 @@
     width: 50%;
     border-radius: 25px;
     border: none;
+    font-family: bodyfont;
 }
 
 .primary-button3 {
@@ -170,6 +250,7 @@
     border-radius: 25px;
     border: none;
     margin-right: 5px;
+    font-family: bodyfont;
 }
 
 .primary-button4 {
@@ -182,40 +263,93 @@
     border-radius: 25px;
     border: none;
     margin-left: 5px;
+    font-family: bodyfont;
 }
 
 
 .devstack{
-    color: black;
     transition: all 0.5s;
     padding: 10px;
 }
 
+.devstack div h3{
+    color: #cbd5e157;
+    font-family: titlefont;
+}
+
+.devstack div h3 span{
+    color: #cbd5e157;
+    font-family: titlefont;
+    transition: all 0.5s;
+}
+
 .devstack:hover{
-    color: white;
-    background-color: #191919;
     transform: scale(1.05);
     transition: all 0.5s;
     box-shadow: none;
 }
 
+.devstack:hover h3{
+    color: #cbd5e157;
+    font-family: titlefont;
+} 
+
+.devstack:hover h3 span{
+    color: #f8ffeb;
+    text-shadow: 0px 0px 10px #f8ffeb;
+    font-family: titlefont;
+    transition: all 0.5s;
+} 
+
+.devstack:hover .techstackitems #titles{
+    color: #CBD5E1;
+    text-shadow: none;
+    font-family: titlefont;
+}
+
+.devstack:hover .techstackitems hr{
+    color: #CBD5E1;
+    text-shadow: none;
+}
+.techstackitems hr{
+    text-shadow: none;
+}
+
+.devstack:hover .techstackitems p{
+    color: #f8ffeb;
+    font-family: bodyfont;
+}
+
 #whodan{
     margin-bottom: -15px;
+    color: #191919;
+    font-family: titlefont;
 }
 
 .who-is-dan{
     height: 70vh;
     background-size: 100% 100%;
-    color: white;
     transition: all 0.5s;
     overflow-y: hidden;
     overflow: hidden;
 }
 
+#blobid{
+    z-index: 0;
+}
+.textinblob h3{
+    color: #CBD5E1;
+    font-family: titlefont;
+}
+
+.textinblob hr{
+    color: #CBD5E1;
+}
 
 pre{
     font-size: 18px;
-    font-family: 'Sarala', sans-serif !important;
+    font-family: bodyfont !important;
+    color: #f8ffeb;
     overflow: hidden;
 }
 
@@ -228,7 +362,7 @@ pre{
 }
 
 .fa-square-github,
-.fa-linkedin, .danwienerlogoimg{
+.fa-linkedin{
   background-color:transparent;
   color: #a6a6a6;
   height: 100px;
@@ -246,10 +380,8 @@ pre{
     max-height: 88px;
     border-radius: 10px;
     max-width: 100%;
-    display: flex;
-    vertical-align: middle;
     filter: drop-shadow(3px 5px 20px #191919);
-    margin-top: -4px;
+    margin-right: 10px;
 }
 
 .fa-lightbulb{
@@ -391,3 +523,11 @@ pre{
     transition: all 0.5s;
 }
 
+#dotnetbot h3{
+    font-family: titlefont;
+    font-weight: bold;
+}
+
+#dotnetbot {
+    font-family: bodyfont;
+}

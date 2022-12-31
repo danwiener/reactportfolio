@@ -18,8 +18,8 @@ import {SiMicrosoftazure} from 'react-icons/si'
 function Carousel() {
   return (
     <div>
-        <div className='carousel-parent position-relative' style={{backgroundImage:`url(./doublecarousel3.svg)`}}>
-            <h1 id="carouselid" className='position-absolute top-0 start-0 end-0 text-center mt-5 technologies'>Technologies I use</h1>
+        <div className='carousel-parent position-relative'>
+            <h1 id="carouselid" className='position-absolute top-0 start-0 end-0 text-center mt-5 technologies'>string technologies = JObject.Parse(httpResult)["<span>technologies_i_use</span>"].ToString();</h1>
             <div className='gallery'>
               <span style={{'--i' : 1}}>
                 <TbCSharp color='#9d6ed8'/>
