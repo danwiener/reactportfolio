@@ -35,7 +35,7 @@ export default function HireMe() {
   return (
     <div className="contactclass">
       <Header/>
-      <div className="projects-list">
+      <div className="projects-list" id='pushdownhireme'>
       <div className="container contact mt-5 abovefooter">
         <div className="row pt-5">
           <div className="col-md-6 p-5 contactimg">
@@ -57,7 +57,7 @@ export default function HireMe() {
         </div>
       </div>
       </div>
-      <div className="footercontact"><Footer/></div>
+      <div className="row footercontact"><Footer/></div>
     </div>
   );
 }
