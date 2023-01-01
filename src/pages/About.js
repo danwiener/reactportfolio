@@ -62,29 +62,29 @@ export default function About() {
                 <div className="project-content2" >
                   <h3>ABOUT ME</h3>
                   <hr/>
-                  <p>I am a Marine Corps veteran and full stack software engineer with a
-                background in 3D printing/3D engineering, though I have been
-                around software engineering my whole life.
+                  <p>I am a Marine Corps veteran and full stack software engineer with a former
+                background in 3D printing/3D engineering.
                 <br />
                 <br />
-                My father was a professor of software engineering (PhD), mother
-                has a Master's degree, and my siblings are successful developers
-                as well, all of whom have influenced my passions.
+                I couldn't be torn away from software engineering from the moment I started, and 
+                now, it's a blessing to wake up every day knowing what I want to do for the rest of my life. 
                 <br />
-                <br /> Now I want to make my contribution to the world through
-                software engineering.
-                <br />
-                <br />
-                My goal is to create software solutions that can change the
-                world and impact others' lives through bulletproof engineering
-                and cutting edge innovation.
+                <br /> 
+                Passionate about making software solutions of all kinds, whether front-end UI or backend REST
+                methodologies, I love the feeling I get when I complete a project, solve a complex algorithm, or learn a new framework or libary,
+                and love learning something new every day.
                 <br />
                 <br />
-                I am immensely driven to learn something new everyday and can't
-                be separated from endless bouts of immersion in problem solving.
-                I love learning how to use new frameworks and libaries, and not
-                much is more fulfilling than putting a tangible product out
-                there that the customer can gain utility from.
+                This vocation provides me a platform to do and impart good on the world, and to collaborate with like minded people, grow, and employ my passions and skills to produce tangible products 
+                that make the customer's life better.
+                <br />
+                <br />
+                Having software engineers in my family, I have been around development my whole life and I would be remiss to say they didn't influence my passions.
+                <br />
+                <br />
+                Find me immersed in endless bouts of problem solving...
+                If I can help you 
+                or if you need me to build something for your business, please reach out, and have a nice day!
                 <br /></p>
                 </div>
               </div>
