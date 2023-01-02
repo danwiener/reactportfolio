@@ -38,8 +38,7 @@
     position: fixed;
     top:0;
     right:0;
-    background: rgb(230,230,230);
-    background: radial-gradient(circle, rgba(230,230,230,1) 0%, rgba(203,213,225,1) 35%, rgba(25,25,25,1) 100%);
+    background: rgba(25, 25, 25, 0.8);    
     height: 65vh;
     width: 50%;
     border-bottom-left-radius: 50%;
@@ -66,7 +65,7 @@
 
 
 ul li{
-    color:black;
+    color:#CBD5E1;
     list-style: none;
     margin-top: 25px;
     font-size: 25px;
@@ -74,7 +73,7 @@ ul li{
 }
 
 ul a{
-    color: black;
+    color: #CBD5E1;
     text-decoration: none;
     font-family: titlefont;
 }
