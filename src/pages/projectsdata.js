@@ -12,7 +12,7 @@ const projectsdata = [
 	image: "./multithreading.svg",
 	description:
 		"C# concurrency calculator which drops runtime from ~27 seconds to ~4.2 seconds for a 640% reduction due to multithreading",
-    futurechanges: "Future features: publish the .NET MAUI UI I built for this to the Microsoft App store",
+    futurechanges: "Future features: publish the .NET MAUI UI I built for this to the Microsoft App Store",
 	link: "https://github.com/danwiener/ConcurrentCalculations",
 	},
 	{
@@ -27,7 +27,7 @@ const projectsdata = [
     title: "REACT.JS PORTFOLIO WEBSITE (THIS WEBSITE)",
 	image: "./resume.svg",
 	description:
-		"React.js/CSS/Bootstrap/HTML5 portfolio website built to demonstrate my projects , passions , and skills , utilizing React Components , React Routing , React States , Neumorphic Designs , Adobe Suite , React-Icons , extensive CSS/Bootstrap conditional styling and animations , and my body of work",
+		"React.js/CSS/Bootstrap/HTML5 portfolio website built to demonstrate my projects , passions , and skills , utilizing React Components , React Routing , React States , Neumorphic Designs , Adobe tools , React-Icons , extensive CSS/Bootstrap conditional styling and animations , and my body of work",
 	link: "https://www.henrikwiener.com/",
     futurechanges: "Future features: enhance accessbility for hearing/visually impaired , improve UI responsiveness to mobile device viewing , advanced animations and extensive Three.js/Web GL graphics throughout for a fully immersive , interactive user-experience",
 	},
