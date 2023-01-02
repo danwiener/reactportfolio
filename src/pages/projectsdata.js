@@ -1,7 +1,7 @@
 const projectsdata = [
 	{
 	title: "BUTTON HOOK FANTASY FOOTBALL",
-	image: "./football.svg",
+	image: "./appvideo.gif",
 	description:
         ".NET MAUI fantasy football application , ~8,400 lines of code , SUBMITTED to Microsoft App Store , backend built using custom .NET web API authentication and controller w/SQL DB hosted using Microsoft Azure , frontend downloadable from anywhere in the world from this website (click \"VIEW/DOWNLOAD\" below :)) , password reset , password generator",
     futurechanges: "Future features: weather forecast search page , search for players/teams w/ predictive typing , facilitate trades between teams , commissioner rights to add/drop players from non-commissioner owned teams , customizable light/dark theme , additional layers of security to the custom authentication protocol , optimized w/bulletproof asynchronous API/HTTP calls",
