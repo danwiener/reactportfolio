@@ -181,7 +181,7 @@ input, textarea{
         position: fixed;
         top:0;
         right:0;
-        background-color: rgba(0, 255, 255, 0.33);
+        background: rgba(25, 25, 25, 0.8);  
         height: 100vh;
         width: 100%;
         overflow: hidden;
