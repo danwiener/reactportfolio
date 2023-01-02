@@ -67,12 +67,12 @@ export default function About() {
                 <br />
                 <br />
                 I fell in love with coding from the moment I started, and 
-                now, it's a blessing to wake up every day knowing what I want to do for the rest of my life. 
+                now, it's a blessing to wake up every day knowing what I want to do for the rest of my life!
                 <br />
-                <br /> 
+                <br />
                 Passionate about making software solutions of all kinds, whether front-end UI or backend REST
-                methodologies, I love the feeling I get when I complete a project, solve a complex algorithm, or learn a new framework or libary,
-                and love learning something new every day.
+                methodologies, it's so fulfilling when I solve a complex algorithm, or learn a new framework or libary. 
+                I love learning something new every day.
                 <br />
                 <br />
                 This vocation provides me a platform to do and impart good on the world, and to collaborate with like minded people, grow, and employ my passions and skills to produce tangible products 
