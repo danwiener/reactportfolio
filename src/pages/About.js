@@ -66,7 +66,7 @@ export default function About() {
                 background in 3D printing/3D engineering.
                 <br />
                 <br />
-                I couldn't be torn away from software engineering from the moment I started, and 
+                I fell in love with coding from the moment I started, and 
                 now, it's a blessing to wake up every day knowing what I want to do for the rest of my life. 
                 <br />
                 <br /> 
@@ -79,7 +79,7 @@ export default function About() {
                 that make the customer's life better.
                 <br />
                 <br />
-                Having software engineers in my family, I have been around development my whole life and I would be remiss to say they didn't influence my passions.
+                Having software engineers in my family, I have been around development my whole life and I would be remiss to say they didn't influence my passions. For them I am grateful!
                 <br />
                 <br />
                 Find me immersed in endless bouts of problem solving...
