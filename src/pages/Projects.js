@@ -21,9 +21,7 @@ export default function Projects() {
             <div className="proj">
               <h1 className="font-bold">Projects</h1>
               <p className="font-bold">
-                Drive and dedication can manifest any reality, but stem from a
-                willingness to learn, and surrendering to the process of
-                continual improvement.
+              "The best work happens when you know that it's not just work, but something that will improve other people's lives." - Satya Nadella
               </p>
               <button className="primary-button2" onClick={handleClickScroll}>Get Started</button>
             </div>
