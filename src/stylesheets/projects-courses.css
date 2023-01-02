@@ -153,6 +153,10 @@ background: linear-gradient(57deg, rgba(230,230,230,1) 0%, rgba(40,133,199,1) 35
     .projpush{
         max-width: 94%;
     }
+
+    .project-content2 {
+        font-size: 15px;
+    }
 }
 
 @keyframes project-animation {
