@@ -24,7 +24,7 @@
     color: black;
     display: flex;
     align-items: center;
-    font-family: 'Sarala', sans-serif;
+    font-family: titlefont;
     justify-content: center;
 }
 
@@ -70,24 +70,27 @@ ul li{
     list-style: none;
     margin-top: 25px;
     font-size: 25px;
-    font-family: bodyfont;
+    font-family: titlefont;
 }
 
 ul a{
     color: black;
     text-decoration: none;
+    font-family: titlefont;
 }
 
 .active{
-    border: 3px solid #2885C7;
+    border: 3px solid #4582AD;
     padding: 5px;
     border-radius: 10px;
+    font-family: titlefont;
 }
 
 .active a{
     font-weight: bold;
-    color: #2885C7;
-    text-shadow: 0px 0px 10px #9DB69B;
+    color: #f8ffeb;
+    text-shadow: 0px 0px 10px #4582AD;
+    font-family: titlefont;
 }
 
 .contact{
