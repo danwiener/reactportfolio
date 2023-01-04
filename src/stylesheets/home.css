@@ -47,7 +47,6 @@ background: linear-gradient(57deg, rgba(230,230,230,1) 0%, rgba(40,133,199,1) 35
 }
 
 #pushdown{
-    margin-top: 450px;
     font-family: bodyfont;
 }
 
@@ -169,6 +168,7 @@ background: linear-gradient(57deg, rgba(230,230,230,1) 0%, rgba(40,133,199,1) 35
     }
     .devstack div h3{
         font-size: 15px;
+        font-family: titlefont;
     }
     
     .devstack div h3 span{
