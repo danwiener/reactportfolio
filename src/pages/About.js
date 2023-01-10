@@ -66,18 +66,11 @@ export default function About() {
                 background in 3D printing/3D engineering.
                 <br />
                 <br />
-                I fell in love with coding from the moment I started, and 
-                now, it's a blessing to wake up every day knowing what I want to do for the rest of my life!
+                The moment I discovered coding, it ignited a passion within me that has never wavered. Waking up every day to continue my journey as a software engineer is not just a job, it's a blessing. I am truly grateful to have found my calling in life and to have the opportunity to do what I love every day.
                 <br />
                 <br />
                 I'm passionate about making software solutions of all kinds, whether front-end UI or backend REST
-                methodologies. It's so fulfilling when I solve a complex algorithm, or learn a new framework or libary, and I love learning something new every day. Software engineering provides me a platform to do and impart good on the world, and to collaborate with like minded people, grow, and employ my passions and skills to produce tangible products 
-                that make the customer's life better.
-                <br />
-                <br />
-                Find me immersed in endless bouts of problem solving...
-                If I can help you 
-                or if you need me to build something for your business, please reach out, and have a nice day!
+                methodologies, am driven by the desire to make a difference, and am always seeking new and challenging projects to work on. If you are looking for a talented, motivated, and results-driven software engineer to help you achieve your goals, I would be thrilled to discuss your needs and how I can help you. I am confident that my skills and experience will be a valuable asset to your organization.
                 <br /></p>
                 </div>
               </div>
