@@ -71,7 +71,7 @@ export default function About() {
                 <br />
                 I'm passionate about making software solutions of all kinds, whether front-end UI or backend REST
                 methodologies, am driven by the desire to make a difference, and am always seeking new and challenging projects to work on. If you are looking for a talented, motivated, and results-driven software engineer to help you achieve your goals, I would be thrilled to discuss your needs and how I can help you. I am confident that my skills and experience will be a valuable asset to your organization.
-                <br /></p>
+                </p>
                 </div>
               </div>
             </div>
