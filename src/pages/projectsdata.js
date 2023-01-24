@@ -17,7 +17,7 @@ const projectsdata = [
 	},
     {
         title: "C#/.NET MAUI Wordle Dictionary Game",
-        image: "./projectsdata.gif",
+        image: "./wordle.gif",
         description:
             "C#/.NET MAUI dictionary game. The premise of this game is to guess a randomly selected 5-letter word within six attempts. The caveat is that your guess must be comprised of a real, legitimate word in the English dictionary. This app cross-references your word through a Merriam-Webster dictionary API to verify your word before you may proceed with your submission. If you guess a correct letter in the same location as it exists in the target word, the tile-behind will turn green, and if you guess a correct letter but in the wrong position, it will turn white. Please enjoy.",
         futurechanges: "Updated, more refined UI.",
