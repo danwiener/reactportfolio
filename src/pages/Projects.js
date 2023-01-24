@@ -4,6 +4,7 @@ import { FaLaptopCode } from "react-icons/fa";
 import projectsdata from "./projectsdata";
 import Footer from ".././components/Footer";
 
+
 export default function Projects() {
   const handleClickScroll = () => {
     const element = document.getElementById('projectsid');
@@ -11,6 +12,8 @@ export default function Projects() {
       element.scrollIntoView({behavior: 'smooth'});
     }
   };
+
+
 
   return (
     <div className="projectsback">
